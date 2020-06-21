@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {  //编译选项
+    "outDir": "./dist", //输出目录
+    "sourceMap": true,  //是否生成sourceMap文件
+    "noImplicitAny": true, //是否不允许出现隐含的any类型
+    "module": "ESNext", //模块规范,要把所有的模块编译成什么模块
+    "target": "es5",  //编译的目标是ES5
+    "jsx": "react", //如何编译JSX语法
+    "esModuleInterop":true //允许在common.js模块和es module进行转换
+  },
+  "include": [
+    "./src/**/*" //只编译src目录下面的ts文件
+  ]
+}
